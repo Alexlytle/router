@@ -286,7 +286,7 @@ figure.woocommerce-product-gallery__wrapper {
 
 .hero-wrapper {
   background-blend-mode: overlay;
-  background-image: url("http://webfield.test/wp-content/uploads/2022/12/herobackground.jpg"), linear-gradient(135deg, #132a54 0%, #216a8c 100%) !important;
+  background-image: url("https://wordpressrouter.com/wp-content/uploads/2022/12/herobackground.jpg"), linear-gradient(135deg, #132a54 0%, #216a8c 100%) !important;
   /*min-height: 70vh;*/
   background-size: cover;
   padding: 20px;

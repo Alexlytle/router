@@ -1,0 +1,117 @@
+.wrapper-hero {
+    min-height: 100vh;
+  //   background-image: url('../../assets/img/wave-background.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100vw;
+  }
+
+  
+  .login-register-container{
+    min-height: 70vh;
+   
+  }
+  
+  .login-register-container .card{
+  margin-top: 100px;
+  }
+  .hero-wrapper {
+    background-blend-mode: overlay;
+    background-image: url('http://webfield.test/wp-content/uploads/2022/12/herobackground.jpg'),linear-gradient( 135deg ,#132a54 0%,#216a8c 100%)!important;
+    /*min-height: 70vh;*/
+    background-size: cover;
+    padding: 20px;
+  }
+  
+  .hero-wrapper .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+    /*text-align: center;*/
+  }
+  
+  .hero-wrapper h1 {
+    font-family: 'Inter';
+    font-weight: 700;
+    color: white;
+    font-size: 45px;
+  }
+  
+  .hero-wrapper p {
+    color: #c0d3e9;
+    line-height: 2;
+    margin-top: 20px;
+    font-size: 22px;
+  }
+  
+  .hero-call-to-action {
+    display: flex;
+  }
+  
+  .hero-call-to-action a {
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 15px;
+    margin-right: 10px;
+  }
+  
+  .hero-call-to-action a:hover {
+    background: rgba(255,255,255,0.61);
+    color: black;
+  }
+  
+  .services-wrapper {
+    min-height: 80vh;
+    background-color: #f1f1f1;
+  }
+  
+  .services-wrapper .container .col > h1 {
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  .call-to-action-services-right {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  
+  .call-to-action-services {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: column;
+  }
+  
+  .call-to-action-services-right p {
+    text-align: start;
+    
+  }
+  
+  .call-to-action-services p {
+    text-align: end;
+  
+  }
+  
+  .call-to-action-services-right h1 {
+    font-weight: 100;
+    font-size: 35px;
+    margin-top: 17px;
+    margin-bottom: 17px;
+  }
+  
+  .call-to-action-services h1 {
+    font-weight: 100;
+    font-size: 35px;
+    margin-top: 17px;
+    margin-bottom: 17px;
+  }
+  
+  .call-to-action-col {
+    padding: 30px 0 30px 0;
+  }
+

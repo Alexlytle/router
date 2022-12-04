@@ -1,0 +1,112 @@
+div#primary {
+    min-height: 90vh;
+}
+
+li.woocommerce-MyAccount-navigation-link:nth-child(1){
+    border-top: 1px solid #151435;
+}
+// .woocommerce{
+//     margin-top: 35px;
+// }
+li.woocommerce-MyAccount-navigation-link {
+    border-bottom: 1px solid #151435;
+    padding: 10px;
+    text-align: center;
+    list-style: none;
+    color: black;
+    border-right: 1px solid #151435;
+    border-left: 1px solid #151435;
+    a{
+        color: black;
+        text-decoration: none;
+    }
+}
+
+li.woocommerce-MyAccount-navigation-link {
+
+   &:hover{
+    background: #15143546;
+   }
+}
+
+
+.woocommerce-product-gallery__image {
+    width: 300px;
+}
+
+figure.woocommerce-product-gallery__wrapper {
+    display: flex;
+    justify-content: center;
+}
+.entry-summary{
+    p.price {
+        color: black!important;
+    }
+}
+
+
+/* 2 Column WooCommerce Checkout */
+
+@media(min-width:768px) {
+	.woocommerce .col2-set .col-1, 
+	.woocommerce-page .col2-set .col-1 {
+		width: 90%;
+	}
+
+	#customer_details {
+		display: flex;
+		flex-flow: column nowrap;
+		float: left;
+		width: 50%;
+	}
+
+	#customer_details .col-2 {
+		width: 90%;
+		margin-top: 20px;
+	}
+
+	#order_review,
+	#order_review_heading {
+		width: 50%;
+		float: left;
+		clear: none;
+	}
+}
+
+/**
+    Change color on all pages
+*/
+
+.woocommerce #content input.button, .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce-page #content input.button, .woocommerce-page #respond input#submit, .woocommerce-page a.button, .woocommerce-page button.button, .woocommerce-page input.button {
+    background: #151435 !important;
+    color:white !important;
+    text-shadow: transparent !important;
+    border-color:#151435 !important;
+    }
+
+    .woocommerce #content input.button:hover, .woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce-page #content input.button:hover, .woocommerce-page #respond input#submit:hover, .woocommerce-page a.button:hover, .woocommerce-page button.button:hover, .woocommerce-page input.button:hover {
+        background:#151435c0 !important;
+        background-color:#151435c0 !important;
+        color:white !important;
+        text-shadow: transparent !important;
+        box-shadow: none;
+        border-color:#151435c0 !important;
+    }
+
+    /*
+        Coupon Code
+    */
+
+    #coupon_code{
+        width: 200px;
+    }
+
+    .woocommerce-input-wrapper{
+        input{
+            padding:10px;
+        }
+    }
+
+    .product_meta{
+        display: none;
+    }

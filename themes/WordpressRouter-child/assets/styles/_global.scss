@@ -1,0 +1,18 @@
+.location-box {
+    padding: 35px;
+    border-radius: 15px;
+    transition: all .4s;
+    background: linear-gradient(145deg,#fff,#e6e6e6);
+    box-shadow: 15px 15px 30px #d9d9d9, -15px -15px 30px #fff;
+    margin-bottom: 26px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #000;
+    margin: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0 0 0);
+    font-size: 15px;
+}

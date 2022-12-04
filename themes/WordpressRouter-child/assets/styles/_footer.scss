@@ -1,0 +1,24 @@
+form.search-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    input.search-field {
+        padding: 7px;
+        border: none;
+    }
+    input.search-submit {
+        padding: 10px;
+        background: black;
+        color: white;
+        border: none;
+        margin-left: 20px;
+    }
+}
+// #vue-app{
+//     position: relative;
+// }
+// footer{
+//     position: absolute;
+//     bottom: 0;
+//     width: 100%;
+// }

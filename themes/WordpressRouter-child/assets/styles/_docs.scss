@@ -1,0 +1,25 @@
+.doc-section{
+    padding: 15px;
+}
+
+.nav-wrapper{
+    background: linear-gradient(177deg, #f7f7fb 0%, #ffffff 100%);
+    min-height: 100vh;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+@media (max-width:768px){
+    .nav-wrapper{
+        justify-content: center;
+        min-height: unset;
+    }
+
+    .doc-section{
+        img{
+            width: 100%;
+        }
+    }
+}

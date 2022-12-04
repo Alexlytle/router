@@ -1,0 +1,28 @@
+@import './global';
+@import './footer';
+@import './homepage';
+@import './docs';
+@import './woocommerce';
+@import './about';
+@import './home';
+@import './logo';
+@import './portfolio';
+@import './services';
+
+// .woocommerce{
+//     max-width: 960px;
+//     margin-right: auto;
+//     margin-left: auto;
+// }
+.current_page_item{
+    span{
+        color: #247295;
+    }
+}
+.nav-item{
+    span{
+        text-transform: uppercase;
+        font-size: 15px;
+        // letter-spacing: 2px;
+    }
+}
